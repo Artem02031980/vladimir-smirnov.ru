@@ -745,6 +745,11 @@ form textarea {
     padding: 10px;
 }
 
+form textarea::placeholder {
+    font-weight: 300;
+    color:var(--color-grey);
+}
+
 form textarea:active,
 form textarea:focus {
     outline-color: var(--color-link-hover);
