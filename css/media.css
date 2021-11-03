@@ -345,12 +345,9 @@
         margin-bottom: 10px;            
     }
 
-    .edu-big:last-child {        
-        margin-bottom: 0;            
-    }
-
     .edu-big:last-child {
-        background-color: var(--color-hero);
+        background-color: var(--color-hero);        
+        margin-bottom: 0;            
     }
 
     .edu-big h3 {
@@ -369,8 +366,8 @@
         font-size: 14px;
     }
 
-    .edu-big time {
-        height: auto;
+    .edu-big>div {
+        height: auto;        
         padding-bottom: 15px;
         font-size: 14px;        
     }
@@ -792,7 +789,7 @@
         font-size: 16px;            
     }
           
-    .edu-big time {
+    .edu-big>div {
         height: 45px;
         font-size: 22px;        
     }

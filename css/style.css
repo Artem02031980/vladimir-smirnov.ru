@@ -529,7 +529,7 @@ nav a:active {
     font-weight: 300;
 }
 
-.edu-big time {
+.edu-big>div {
     height: 65px;
     font-size: 24px;
     font-weight: 300;
