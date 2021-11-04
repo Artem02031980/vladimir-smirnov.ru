@@ -2,7 +2,7 @@
 
 if(isset($_POST['okbutton']))
    {    echo "<script language='JavaScript'>window.location.href = 'thanks.html'</script>"; 
-        $to = 'vladimsmirnov@yandex.ru, artem0203@yandex.ru'; //Почта получателя, через запятую можно указать сколько угодно адресов
+        $to = 'vladimsmirnov@yandex.ru'; //Почта получателя, через запятую можно указать сколько угодно адресов
         $subject = 'Сообщение с сайта VLADIMIR-SMIRNOV.RU'; //Заголовок сообщения
         $message = '
                 <html>
